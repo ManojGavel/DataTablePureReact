@@ -1,0 +1,37 @@
+.ellipsis {
+    padding: 0 5px;
+  }
+  .resultsInfo {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+  }
+  .filters{
+    display: flex;
+    justify-content: space-between;
+  }
+  .container{
+    width: 80%;
+    margin: auto;
+  }
+.footer {
+    display: flex;
+    justify-content: space-between;
+  }
+tr:nth-child(even) {
+  background: #ccc;
+}
+tr:nth-child(odd) {
+  background: #fff;
+}
+td,
+th,
+table,
+tr {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+}
+table {
+  width: 100%;
+}
+

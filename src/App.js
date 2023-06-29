@@ -6,7 +6,7 @@ import Table from './components/Table';
 function App() {
   const [employeeData, setEmployeeData] = useState([]);
 const employee = () => {
-  fetch("https://hub.dummyapis.com/employee")
+  fetch("https://restcountries.com/v2/all")
     .then((respone) => respone.json())
     .then((data) => setEmployeeData(data));
 };
